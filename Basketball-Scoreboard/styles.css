@@ -1,0 +1,74 @@
+:root {
+    --dark-green: darkgreen;
+    --hover-green: #045D3D;
+    --button-border-color: #9AABD8;
+    --background-color: #1B244A;
+    --text-color: #F94F6D;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+#home, #guest {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: var(--text-color);
+    font-size: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 650px;
+    height: 350px;
+    gap: 80px;
+    background: var(--background-color);
+    border-radius: 20px;
+}
+
+button {
+    background: none;
+    border: 2px solid var(--button-border-color);
+    padding: 0;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    background: var(--background-color);
+    border-radius: 5px;
+    color: var(--button-border-color);
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#reset {
+    margin-top: 70px;
+    border: none;
+    padding: 10px 0;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+    background: var(--dark-green);
+}
+
+#reset:hover {
+    background-color: var(--hover-green);
+}
